@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Probar el registro de usuarios" tests="1" skipped="0" failures="0" errors="0" timestamp="2022-08-06T00:04:03" hostname="DESKTOP-OU5DM7F" time="17.13">
+  <properties/>
+  <testcase name="Registrar usuario" classname="Probar el registro de usuarios" time="17.13"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[1659744244387	geckodriver	INFO	Listening on 127.0.0.1:30692
+1659744245014	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--start-maximized" "--disable-popup-blocking" "--ignore-certificate-errors" "-no-remote" "-profile" "C:\\Users\\ObiNuma\\AppData\\Local\\Temp\\rust_mozprofileUyzMh9"
+1659744245259	Marionette	INFO	Marionette enabled
+1659744245262	Marionette	INFO	Listening on port 56604
+Read port: 56604
+1659744245531	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\ObiNuma\\AppData\\Local\\Temp\\rust_mozprofileUyzMh9\\search.json.mozlz4", (void 0)))
+ago 05, 2022 7:04:06 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFORMACIÓN: Detected dialect: W3C
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://demo.guru99.com"
+JavaScript warning: https://pagead2.googlesyndication.com/bg/7_ytIEpYWpd7XN7KxgxvHAG9q-1MjoUA1EpcWWHxRKk.js line 2 > eval line 1769 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://demo.guru99.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://demo.guru99.com"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+]]></system-err>
+</testsuite>
